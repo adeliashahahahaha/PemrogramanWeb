@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: fff;
+    line-height: 1.65;
+    padding-bottom: 100px;
+}
+.container-satu{
+    width: 1000px;
+    margin-left: 130px;
+    background-color:lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+.navbar{
+    width: 1000px;
+    height: 100px;
+    margin-top: 50px auto;
+    margin-left: 130px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.sidebar-satu{
+    padding-top: 7px;
+    width: 650px;
+    padding-right: 20px;
+}
+.sidebar-dua{
+    padding-left: 30px;
+    padding-right: 15px;
+    width: 1050px;
+}
+.img{
+    width: 90px;
+    height: 50px;
+}
