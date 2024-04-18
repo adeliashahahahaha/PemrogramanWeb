@@ -1,0 +1,297 @@
+/* Resetting default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+input,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Change font-family to Poppins */
+    background-color: #f7f2ea;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.coffee-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    background-color: #2c1911;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.coffee-header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 40px 20px;
+    height: 100vh; /* Menetapkan tinggi full layar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Main content */
+.main-content {
+    text-align: center;
+    padding: 2em;
+    height: auto; /* Menghapus tinggi yang ditetapkan untuk mengikuti konten */
+    background-color: #2c1911;
+    color: white;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px; /* Menambahkan jarak antara judul dan konten lainnya */
+}
+
+.image-container {
+    width: 100px; /* Set the width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.logo-image {
+    width: 100%; /* Make the image fill the container */
+    max-width: 100px; /* Set maximum width for smaller screens */
+}
+
+.label {
+    font-size: 24px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px; 
+    margin-bottom: 20px;
+}
+
+/* Menu styles */
+.menu {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem 2rem; /* Adjusted padding */
+    height: auto; /* Adjusted height */
+    min-height: 100vh; /* Added minimum height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu .section__header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu img {
+    width: 100%;
+    display: flex;
+}
+
+.menu .popular__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.menu .popular__card {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu .popular__content {
+    padding: 1rem;
+}
+
+
+/* Contact form styles */
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    background-color: #2c1911;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 2em;
+    height: 100vh; /* Tinggi elemen sesuai 100% viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    margin-bottom: 120px;
+}
+
+.main-content .frame {
+    width: 200px; 
+    height: 200px; 
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Register section styles */
+.register-section {
+    background-color: #2c1911;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.register-section h2 {
+    margin-bottom: 20px;
+}
+
+.register-section p {
+    margin-bottom: 20px;
+}
+
+.register-link {
+    background-color: #fff;
+    color: #2c1911;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    max-width: 200px; /* Atur lebar maksimum tombol */
+    margin: 0 auto; /* Memusatkan tombol */
+    display: inline-block; /* Menjadikan tombol inline */
+}
+
+.register-link:hover {
+    background-color: #493017;
+    color: #fff;
+}
+
+
+.label {
+    font-size: 24px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px; 
+    margin-bottom: 20px;
+}
+
+.contact-section form button:hover {
+    background-color: #493017;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.footer-about, .footer-links, .footer-contact {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-about, .footer-links, .footer-contact {
+        min-width: 100%;
+        text-align: center;
+    }
+}
